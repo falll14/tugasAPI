@@ -1,0 +1,3 @@
+RewriteEngine On # Turn on the rewriting engine
+RewriteRule ^movie/?$ movie.php [NC,L]
+RewriteRule ^movie/([0-9]+)/?$ movie.php?id=$1 [NC,L]
